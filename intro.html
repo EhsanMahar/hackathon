@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Resume</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <h1>Static Interactive Resume Builder By Ehsan Ali Mahar</h1>
+    <form id="resume">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="phone no">Contact:</label>
+            <input type="number" name="phone no" id="phone no">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education</label>
+            <textarea name="education" id="edu" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills</label>
+            <textarea name="skills" id="skill" rows="5" required></textarea>
+        </fieldset>
+
+<fieldset>
+    <legend>Experience</legend>
+    <label for="exp">Experience</label>
+    <textarea name="Experience" id="exp" rows="5" required></textarea>
+</fieldset>
+
+<button type="submit">Generate Your Resume</button>
+    </form>
+</body>
+</html>
